@@ -1,61 +1,79 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Faiz Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faiz | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <img src="profile.jpg" alt="Profile" class="profile">
-    <h1>Faiz Ahmed</h1>
-    <p>Graphic Designer • Stream Branding Designer</p>
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="overlay"></div>
 
-    <a href="#work" class="btn">View My Work</a>
+    <div class="hero-content">
+      <img src="profile.jpg" class="profile" />
+      <h1>Faiz Ahmed</h1>
+      <p>Graphic Designer • Stream Branding • UI Creator</p>
+
+      <a href="#work" class="btn">View My Work</a>
+    </div>
   </header>
 
-  <section class="about">
+  <!-- ABOUT -->
+  <section class="section">
     <h2>About Me</h2>
     <p>
-      I create professional stream overlays, Twitch branding,
-      thumbnails, logos, and custom graphics for content creators.
+      I design modern Twitch overlays, stream packages, logos,
+      and high-quality gaming visuals for content creators worldwide.
     </p>
   </section>
 
-  <section id="work" class="work">
+  <!-- WORK -->
+  <section id="work" class="section">
     <h2>My Work</h2>
 
-    <div class="gallery">
+    <div class="grid">
 
       <div class="card">
-        <img src="./download (1).jpg">
-        <h3>Twitch Overlay</h3>
+        <img src="work1.jpg" />
+        <div class="card-content">
+          <h3>Twitch Overlay</h3>
+          <p>Clean & modern stream layout design</p>
+        </div>
       </div>
 
       <div class="card">
-        <img src="./download.jpg">
-        <h3>Stream Package</h3>
+        <img src="work2.jpg" />
+        <div class="card-content">
+          <h3>Full Stream Package</h3>
+          <p>Alerts, screens, panels & branding</p>
+        </div>
       </div>
 
       <div class="card">
-        <img src="./download (1).jpg">
-        <h3>Gaming Thumbnail</h3>
+        <img src="work3.jpg" />
+        <div class="card-content">
+          <h3>Gaming Thumbnail</h3>
+          <p>High CTR YouTube thumbnail design</p>
+        </div>
       </div>
 
     </div>
   </section>
 
-  <section class="contact">
-    <h2>Contact</h2>
-
-    <p>Discord: yourdiscordname</p>
+  <!-- CONTACT -->
+  <section class="section contact">
+    <h2>Let’s Work Together</h2>
+    <p>Discord: yourdiscord</p>
     <p>Email: your@email.com</p>
+
+    <a class="btn" href="#">Hire Me</a>
   </section>
 
 </body>
 </html>
-```
-
